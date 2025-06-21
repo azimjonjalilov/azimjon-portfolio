@@ -85,6 +85,9 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 /*=============== LAYOUT ===============*/
+.grid {
+  display: grid;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
