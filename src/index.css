@@ -83,6 +83,49 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.button {
+  display: inline-block;
+  color: var(--title-color);
+  border: 1px solid var(--first-color);
+  padding: 1.25rem 4.5rem 1.25rem 2rem;
+  border-radius: 2rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-600);
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.button:hover {
+  color: var(--white-color);
+}
+
+.button-icon {
+  position: absolute;
+  inset: -1px -1px -1px auto;
+  background-color: var(--first-color);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  color: var(--white-color);
+  font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--first-color);
+  border-radius: inherit;
+  z-index: -10;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.button:hover::before {
+  transform: translateX(0);
+}
 
 /*=============== LAYOUT ===============*/
 .grid {
