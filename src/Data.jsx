@@ -1,4 +1,3 @@
-// ========== LINKS ==========
 import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen } from "react-icons/fa";
 import { RiBriefcase4Fill, RiGraduationCapFill } from "react-icons/ri";
 
@@ -13,6 +12,14 @@ import skillsImg7 from "./assets/sketch-logo.svg";
 import skillsImg8 from "./assets/adobe-xd-logo.svg";
 import skillsImg9 from "./assets/adobe-photoshop-logo.svg";
 import skillsImg10 from "./assets/invision-logo.svg";
+
+import projectImg1 from "./assets/project-1.jpg";
+import projectImg2 from "./assets/project-2.jpg";
+import projectImg3 from "./assets/project-3.jpg";
+import projectImg4 from "./assets/project-4.jpg";
+import projectImg5 from "./assets/project-5.jpg";
+
+// ========== LINKS ==========
 
 export const links = [
   {
@@ -253,5 +260,59 @@ export const resume = [
     year: "2009",
     title: "Bachelor Degree <span> Tunis High School </span>",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore.",
+  },
+];
+
+// ========== PORTFOLIO ==========
+
+export const portfolio = [
+  {
+    id: 1,
+    img: projectImg1,
+    title: "Coffee Website",
+    description:
+      "Short description of the project that was carried out in this portfolio.",
+    skills: [skillsImg4, skillsImg5],
+    link: "",
+  },
+
+  {
+    id: 2,
+    img: projectImg2,
+    title: "Food Product Design",
+    description:
+      "Short description of the project that was carried out in this portfolio.",
+    skills: [skillsImg6, skillsImg7],
+    link: "",
+  },
+
+  {
+    id: 3,
+    img: projectImg3,
+    title: "Restaurant Landing Page",
+    description:
+      "Short description of the project that was carried out in this portfolio.",
+    skills: [skillsImg1, skillsImg2, skillsImg3],
+    link: "",
+  },
+
+  {
+    id: 4,
+    img: projectImg4,
+    title: "Barbershop Website",
+    description:
+      "Short description of the project that was carried out in this portfolio.",
+    skills: [skillsImg4, skillsImg5],
+    link: "",
+  },
+
+  {
+    id: 5,
+    img: projectImg5,
+    title: "Construction Landing Page",
+    description:
+      "Short description of the project that was carried out in this portfolio.",
+    skills: [skillsImg1, skillsImg2, skillsImg3],
+    link: "",
   },
 ];
