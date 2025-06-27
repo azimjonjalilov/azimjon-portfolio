@@ -31,6 +31,16 @@
   --weight-700: 700;
   --weight-800: 800;
 }
+
+/* Dark theme */
+.dark-theme {
+  --title-color: hsl(var(--hue), 4%, 100%);
+  --text-color: hsl(var(--hue), 4%, 80%);
+  --body-color: hsl(var(--hue), 4%, 8%);
+  --container-color: hsl(var(--hue), 4%, 12%);
+  --border-color: hsl(var(--hue), 4%, 16%);
+}
+
 /* Responsive typography */
 
 /*=============== BASE ===============*/

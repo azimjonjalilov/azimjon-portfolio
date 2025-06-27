@@ -1,0 +1,81 @@
+.style-switcher {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  background-color: var(--white-color);
+  width: 250px;
+  padding: 1rem;
+  transform: translateX(-100%);
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.show-switcher {
+  transform: translateX(0);
+}
+
+.style-switcher,
+.switcher-toggler,
+.theme-toggler {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.switcher-items {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem 0.25rem;
+}
+
+.switcher-title,
+.switcher-toggler,
+.theme-toggler,
+.switcher-close {
+  color: hsl(var(--hue), 4%, 26%);
+}
+
+.switcher-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-700);
+  border-bottom: 1px solid hsl(var(--hue), 4%, 91%);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.theme-img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.switcher-toggler,
+.theme-toggler {
+  position: absolute;
+  left: 100%;
+  background-color: var(--white-color);
+  width: 50px;
+  height: 50px;
+  font-size: var(--large-font-size);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  border: 1px solid hsl(var(--hue), 4%, 91%);
+  transition: left 0.3s ease;
+}
+
+.show-switcher :is(.switcher-toggler, .theme-toggler) {
+  left: -100%;
+}
+
+.switcher-toggler {
+  top: 12%;
+}
+
+.theme-toggler {
+  bottom: 12%;
+}
+
+.switcher-close {
+  font-size: 2.5rem;
+  position: absolute;
+  top: -0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}

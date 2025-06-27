@@ -19,6 +19,14 @@ import projectImg3 from "./assets/project-3.jpg";
 import projectImg4 from "./assets/project-4.jpg";
 import projectImg5 from "./assets/project-5.jpg";
 
+import Theme1 from "./assets/red.png";
+import Theme2 from "./assets/blueviolet.png";
+import Theme3 from "./assets/blue.png";
+import Theme4 from "./assets/magenta.png";
+import Theme5 from "./assets/yellowgreen.png";
+import Theme6 from "./assets/orange.png";
+import Theme7 from "./assets/yellow.png";
+
 // ========== LINKS ==========
 
 export const links = [
@@ -314,5 +322,43 @@ export const portfolio = [
       "Short description of the project that was carried out in this portfolio.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "",
+  },
+];
+
+// ========== THEME ==========
+export const themes = [
+  {
+    img: Theme1,
+    hue: "4",
+  },
+
+  {
+    img: Theme2,
+    hue: "271",
+  },
+
+  {
+    img: Theme3,
+    hue: "225",
+  },
+
+  {
+    img: Theme4,
+    hue: "339",
+  },
+
+  {
+    img: Theme5,
+    hue: "80",
+  },
+
+  {
+    img: Theme6,
+    hue: "19",
+  },
+
+  {
+    img: Theme7,
+    hue: "42",
   },
 ];
