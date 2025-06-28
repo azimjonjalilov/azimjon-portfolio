@@ -1,7 +1,7 @@
 .home-container {
   grid-template-columns: 4.75fr 7.25fr;
   align-items: center;
-  gap: 2rem 10rem;
+  gap: 2rem clamp(2rem, -22.6531rem + 32.6531vw, 10rem);
   padding: 2.5rem;
   min-height: 100dvh;
 }
