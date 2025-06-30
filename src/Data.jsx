@@ -59,22 +59,22 @@ export const links = [
 export const personalInfo = [
   {
     title: "First Name : ",
-    description: "Steve",
+    description: "Azimjon",
   },
 
   {
     title: "Last Name : ",
-    description: "Milner",
+    description: "Jalilov",
   },
 
   {
     title: "Age : ",
-    description: "27 Years",
+    description: "26 Years",
   },
 
   {
     title: "Nationality : ",
-    description: "Tunisian",
+    description: "Uzbek",
   },
 
   {
@@ -84,50 +84,50 @@ export const personalInfo = [
 
   {
     title: "Address : ",
-    description: "Tunis",
+    description: "Uzbekistan",
   },
 
   {
     title: "Phone : ",
-    description: "+21621184010",
+    description: "+998905977955",
   },
 
   {
     title: "Email : ",
-    description: "you@mail.com",
+    description: "azimjonjalilovking1301@gmail.com",
   },
 
   {
-    title: "Skype : ",
-    description: "steve.milner",
+    title: "Telegram : ",
+    description: "jalilovazimjon",
   },
 
   {
     title: "Langages : ",
-    description: "French, English",
+    description: "Uzbek, English",
   },
 ];
 
 // ========== STATS ==========
 export const stats = [
   {
-    no: "12+",
+    no: "2+",
     title: "Years of <br /> Experience",
   },
 
   {
-    no: "97+",
+    no: "10+",
     title: "Completed <br /> Projects",
   },
 
   {
-    no: "81+",
+    no: "7+",
     title: "Happy <br /> Customers",
   },
 
   {
-    no: "53+",
-    title: " Awards <br /> Won",
+    no: "3+",
+    title: " Certification in <br /> JavaScript and React",
   },
 ];
 
@@ -161,7 +161,7 @@ export const skill = [
     id: 4,
     img: skillsImg4,
     title: "React",
-    level: "Basic",
+    level: "Intermediate",
     category: "developer",
   },
 
@@ -169,7 +169,7 @@ export const skill = [
     id: 5,
     img: skillsImg5,
     title: "Tailwind",
-    level: "Intermediate",
+    level: "Basic",
     category: "developer",
   },
 
@@ -177,41 +177,41 @@ export const skill = [
     id: 6,
     img: skillsImg6,
     title: "Figma",
-    level: "Advanced",
-    category: "designer",
-  },
-
-  {
-    id: 7,
-    img: skillsImg7,
-    title: "Sketch",
-    level: "Basic",
-    category: "designer",
-  },
-
-  {
-    id: 8,
-    img: skillsImg8,
-    title: "Adobe XD",
     level: "Intermediate",
     category: "designer",
   },
+
+  // {
+  //   id: 7,
+  //   img: skillsImg7,
+  //   title: "Sketch",
+  //   level: "Basic",
+  //   category: "designer",
+  // },
+
+  // {
+  //   id: 8,
+  //   img: skillsImg8,
+  //   title: "Adobe XD",
+  //   level: "Basic",
+  //   category: "designer",
+  // },
 
   {
     id: 9,
     img: skillsImg9,
     title: "Photoshop",
-    level: "Intermediate",
-    category: "designer",
-  },
-
-  {
-    id: 10,
-    img: skillsImg10,
-    title: "InvisionApp",
     level: "Basic",
     category: "designer",
   },
+
+  // {
+  //   id: 10,
+  //   img: skillsImg10,
+  //   title: "InvisionApp",
+  //   level: "Basic",
+  //   category: "designer",
+  // },
 ];
 
 // ========== RESUME ==========
@@ -220,54 +220,37 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <RiBriefcase4Fill />,
-    year: "2018 - Present",
-    title: "Web Developer <span> Envato </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit.",
+    year: "2023 - Present",
+    title: "Web Developer <span> Algorithm </span>",
+    desc: "Designing and developing responsive web applications using modern JavaScript frameworks such as React. Collaborating with cross-functional teams to deliver scalable, maintainable, and user-friendly solutions. Continuously optimizing code performance and enhancing UI/UX.",
   },
 
   {
     id: 2,
     category: "experience",
     icon: <RiBriefcase4Fill />,
-    year: "2013 - 2018",
-    title: "UI/UX Designer <span> Themeforest </span>",
-    desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt.",
+    year: "2021 - 2023",
+    title: "Sales Manager <span>EPA</span>",
+    desc: "Managed client relationships and developed sales strategies to drive revenue growth. Conducted market research, identified new opportunities, and collaborated with teams to meet sales targets efficiently.",
   },
-
   {
     id: 3,
-    category: "experience",
-    icon: <RiBriefcase4Fill />,
-    year: "2005 - 2013",
-    title: "Consultant <span> Videohive </span>",
-    desc: "Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt.",
+    category: "education",
+    icon: <RiGraduationCapFill />,
+    year: "2017 - 2021",
+    title:
+      "Construction Engineering Degree <span>Namangan Engineering-Construction Institute</span>",
+    desc: "Completed a Bachelor's degree in Construction Engineering with a focus on structural design, building materials, and project management. Gained hands-on experience through academic projects and practical training.",
   },
 
   {
     id: 4,
     category: "education",
     icon: <RiGraduationCapFill />,
-    year: "2015",
-    title: "Engineering Degree <span> Oxford University </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore.",
-  },
-
-  {
-    id: 5,
-    category: "education",
-    icon: <RiGraduationCapFill />,
-    year: "2012",
-    title: "Master Degree <span> KIEV University </span>",
-    desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt.",
-  },
-
-  {
-    id: 6,
-    category: "education",
-    icon: <RiGraduationCapFill />,
-    year: "2009",
-    title: "Bachelor Degree <span> Tunis High School </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore.",
+    year: "2014 - 2017",
+    title:
+      "Exact Sciences Track <span>Namangan State University Academic Lyceum No.1</span>",
+    desc: "Studied in the exact sciences track with a focus on mathematics, physics, and computer science. Developed strong analytical thinking skills and a solid foundation for further technical education.",
   },
 ];
 
