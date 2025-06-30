@@ -6,7 +6,7 @@ import "./theme.css";
 import { useState, useEffect } from "react";
 
 const getStorageColor = () => {
-  let color = "4";
+  let color = "225";
   if (localStorage.getItem("color")) {
     color = localStorage.getItem("color");
   }
