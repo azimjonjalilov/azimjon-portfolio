@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className="home-container grid">
       <div className="home-img">
-        <img src={Profile} alt="" className="home-img" />
+        {/* <img src={Profile} alt="" className="home-img" /> */}
       </div>
 
       <div className="home-content">
