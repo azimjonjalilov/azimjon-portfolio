@@ -6,7 +6,7 @@ const SkillsItem = ({ img, title, level }) => {
       </div>
 
       <h3 className="skills-name">{title}</h3>
-      <span className="skills-level">{level}</span>
+      {/* <span className="skills-level">{level}</span> */}
     </div>
   );
 };

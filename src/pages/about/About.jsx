@@ -44,6 +44,7 @@ const About = () => {
         <h3 className="section-subtitle subtitle-center">My Skills</h3>
 
         <div className="skills-container grid">
+          {/* frontend skill */}
           <div className="skills-group">
             <h3 className="skills-title">Frontend Developer</h3>
 
@@ -56,12 +57,26 @@ const About = () => {
             </div>
           </div>
 
+          {/* backend skill */}
           <div className="skills-group">
-            <h3 className="skills-title">Web Designer</h3>
+            <h3 className="skills-title">Backend Developer</h3>
 
             <div className="skills-items grid">
               {skill.map((val) => {
-                if (val.category === "designer") {
+                if (val.category === "backend") {
+                  return <SkillsItem key={val.id} {...val} />;
+                }
+              })}
+            </div>
+          </div>
+
+          {/* tools skill */}
+          <div className="skills-group">
+            <h3 className="skills-title">Design / Tools</h3>
+
+            <div className="skills-items grid">
+              {skill.map((val) => {
+                if (val.category === "tools") {
                   return <SkillsItem key={val.id} {...val} />;
                 }
               })}

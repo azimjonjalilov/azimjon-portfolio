@@ -4,14 +4,28 @@ import { RiBriefcase4Fill, RiGraduationCapFill } from "react-icons/ri";
 import skillsImg1 from "./assets/html-logo.svg";
 import skillsImg2 from "./assets/css-logo.svg";
 import skillsImg3 from "./assets/javascript-logo.svg";
-import skillsImg4 from "./assets/react-logo.svg";
-import skillsImg5 from "./assets/tailwind-css-logo.svg";
-
-import skillsImg6 from "./assets/figma-logo.svg";
-import skillsImg7 from "./assets/sketch-logo.svg";
-import skillsImg8 from "./assets/adobe-xd-logo.svg";
-import skillsImg9 from "./assets/adobe-photoshop-logo.svg";
-import skillsImg10 from "./assets/invision-logo.svg";
+import skillsImg4 from "./assets/typescript-logo.svg";
+import skillsImg5 from "./assets/react-logo.svg";
+import skillsImg6 from "./assets/redux-logo.svg";
+import skillsImg7 from "./assets/tailwind-css-logo.svg";
+import skillsImg8 from "./assets/vite-logo.svg";
+import skillsImg9 from "./assets/nextjs-logo.svg";
+import skillsImg10 from "./assets/vuejs-logo.svg";
+import skillsImg11 from "./assets/restapi-logo.svg";
+import skillsImg12 from "./assets/responsive-logo.png";
+import skillsImg13 from "./assets/nodejs-logo.svg";
+import skillsImg14 from "./assets/express-logo.svg";
+import skillsImg15 from "./assets/mongodb-logo.svg";
+// import skillsImg16 from "./assets/mongodb-logo.svg";
+import skillsImg17 from "./assets/postgresql-logo.svg";
+import skillsImg18 from "./assets/firebase-logo.svg";
+import skillsImg19 from "./assets/jsonwebtokens-logo.svg";
+import skillsImg21 from "./assets/socket-logo.svg";
+import skillsImg22 from "./assets/swagger-logo.svg";
+import skillsImg23 from "./assets/figma-logo.svg";
+import skillsImg24 from "./assets/git-logo.svg";
+import skillsImg25 from "./assets/github-logo.svg";
+import skillsImg26 from "./assets/postman-logo.svg";
 
 import projectImg1 from "./assets/project-1.jpg";
 import projectImg2 from "./assets/project-2.jpg";
@@ -145,6 +159,7 @@ export const skill = [
     id: 2,
     img: skillsImg2,
     title: "CSS",
+    // title: "CSS/SCSS",
     level: "Advanced",
     category: "developer",
   },
@@ -160,7 +175,7 @@ export const skill = [
   {
     id: 4,
     img: skillsImg4,
-    title: "React",
+    title: "TypeScript",
     level: "Intermediate",
     category: "developer",
   },
@@ -168,50 +183,178 @@ export const skill = [
   {
     id: 5,
     img: skillsImg5,
-    title: "Tailwind",
-    level: "Basic",
+    title: "React JS",
+    level: "Intermediate",
     category: "developer",
   },
 
   {
     id: 6,
     img: skillsImg6,
-    title: "Figma",
+    title: "Redux Toolkit",
     level: "Intermediate",
-    category: "designer",
+    category: "developer",
   },
 
-  // {
-  //   id: 7,
-  //   img: skillsImg7,
-  //   title: "Sketch",
-  //   level: "Basic",
-  //   category: "designer",
-  // },
+  {
+    id: 7,
+    img: skillsImg7,
+    title: "Tailwind CSS",
+    level: "Intermediate",
+    category: "developer",
+  },
 
-  // {
-  //   id: 8,
-  //   img: skillsImg8,
-  //   title: "Adobe XD",
-  //   level: "Basic",
-  //   category: "designer",
-  // },
+  {
+    id: 8,
+    img: skillsImg8,
+    title: "Vite",
+    level: "Intermediate",
+    category: "developer",
+  },
 
   {
     id: 9,
     img: skillsImg9,
-    title: "Photoshop",
-    level: "Basic",
-    category: "designer",
+    title: "NextJS",
+    level: "Intermediate",
+    category: "developer",
+  },
+
+  {
+    id: 10,
+    img: skillsImg10,
+    title: "VueJS",
+    level: "Intermediate",
+    category: "developer",
   },
 
   // {
-  //   id: 10,
-  //   img: skillsImg10,
-  //   title: "InvisionApp",
-  //   level: "Basic",
-  //   category: "designer",
+  //   id: 11,
+  //   img: skillsImg11,
+  //   title: "Rest API",
+  //   level: "Intermediate",
+  //   category: "developer",
   // },
+
+  {
+    id: 12,
+    img: skillsImg12,
+    title: "Responsive Design",
+    level: "Intermediate",
+    category: "developer",
+  },
+
+  {
+    id: 13,
+    img: skillsImg13,
+    title: "NodeJS",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 14,
+    img: skillsImg14,
+    title: "ExpressJS",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 15,
+    img: skillsImg15,
+    title: "MongoDB",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  // {
+  //   id: 16,
+  //   img: skillsImg6,
+  //   title: "Mongoose",
+  //   level: "Intermediate",
+  //   category: "backend",
+  // },
+
+  {
+    id: 17,
+    img: skillsImg17,
+    title: "PostgreSQL",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 18,
+    img: skillsImg18,
+    title: "Firebase",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 19,
+    img: skillsImg19,
+    title: "JWT Authentication",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 20,
+    img: skillsImg11,
+    title: "REST API",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 21,
+    img: skillsImg21,
+    title: "Socket.io",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 22,
+    img: skillsImg22,
+    title: "Swagger",
+    level: "Intermediate",
+    category: "backend",
+  },
+
+  {
+    id: 23,
+    img: skillsImg23,
+    title: "Figma",
+    level: "Intermediate",
+    category: "tools",
+  },
+
+  {
+    id: 24,
+    img: skillsImg24,
+    title: "Git",
+    level: "Intermediate",
+    category: "tools",
+  },
+
+  {
+    id: 25,
+    img: skillsImg25,
+    title: "GitHub",
+    level: "Intermediate",
+    category: "tools",
+  },
+
+  {
+    id: 26,
+    img: skillsImg26,
+    title: "Postman",
+    level: "Intermediate",
+    category: "tools",
+  },
 ];
 
 // ========== RESUME ==========
