@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className="nav-list grid">
           {links.map(({ name, icon, path }, index) => {
             return (
-              <li className="nav-item" key={index}>
+              <li className="nav-item" key={index} data-aos="fade-left">
                 <NavLink
                   to={path}
                   className={({ isActive }) =>

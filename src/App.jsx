@@ -5,6 +5,10 @@ import Contact from "./pages/contact/Contact";
 import AppLayout from "./components/AppLayout";
 import { createBrowserRouter, RouterProvider } from "react-router";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const App = () => {
   const router = createBrowserRouter([
     {

@@ -51,29 +51,36 @@ const Themes = () => {
   }, [theme]);
 
   return (
-    <div className={`${showSwitcher ? "show-switcher" : ""} style-switcher`}>
-      <div
-        className="switcher-toggler"
-        onClick={() => setShowSwitcher(!showSwitcher)}
-      >
-        <FaCog />
-      </div>
-
+    <>
       <div className="theme-toggler" onClick={toggleTheme}>
         {theme === "light-theme" ? <BsMoon /> : <BsSun />}
       </div>
+      {/* <div className={`${showSwitcher ? "show-switcher" : ""} style-switcher`}>
+        <div
+          className="switcher-toggler"
+          onClick={() => setShowSwitcher(!showSwitcher)}
+        >
+          <FaCog />
+        </div>
 
-      <h3 className="switcher-title">Style Switcher</h3>
-      <div className="switcher-items grid">
-        {themes.map((theme, index) => {
-          return <ThemeItem key={index} {...theme} changeColor={changeColor} />;
-        })}
-      </div>
+        <div className="theme-toggler" onClick={toggleTheme}>
+          {theme === "light-theme" ? <BsMoon /> : <BsSun />}
+        </div>
 
-      <div className="switcher-close" onClick={() => setShowSwitcher(false)}>
-        &times;
-      </div>
-    </div>
+        <h3 className="switcher-title">Style Switcher</h3>
+        <div className="switcher-items grid">
+          {themes.map((theme, index) => {
+            return (
+              <ThemeItem key={index} {...theme} changeColor={changeColor} />
+            );
+          })}
+        </div>
+
+        <div className="switcher-close" onClick={() => setShowSwitcher(false)}>
+          &times;
+        </div>
+      </div> */}
+    </>
   );
 };
 

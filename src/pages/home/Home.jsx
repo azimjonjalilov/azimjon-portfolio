@@ -6,24 +6,24 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="home-container grid">
-      <div className="home-img">
-        {/* <img src={Profile} alt="" className="home-img" /> */}
-      </div>
+      {/* <div className="home-img">
+        <img src={Profile} alt="" className="home-img" />
+      </div> */}
 
       <div className="home-content">
-        <h1 className="home-title">
+        <h1 className="home-title" data-aos="fade-up">
           <span>I'm Azimjon Jalilov</span>
           <br /> Web developer
         </h1>
 
-        <p className="home-description">
-          I’m a Uzbekistan-based web designer & front-end developer focused on
-          crafting clean, user-friendly interfaces. I’m passionate about
-          building modern and efficient web applications that make life easier
-          for people around me.
+        <p className="home-description" data-aos="fade-up" data-aos-delay="50">
+          I'm a Frontend Developer from Uzbekistan passionate about creating
+          modern, responsive, and user-focused web applications. I specialize in
+          building clean interfaces with React, JavaScript, and modern frontend
+          technologies to deliver smooth and efficient user experiences.
         </p>
 
-        <Link to="/about" className="button">
+        <Link to="/about" className="button" data-aos="zoom-in">
           More About Me
           <span className="button-icon">
             <FiArrowRight />
