@@ -1,6 +1,7 @@
 import { portfolio } from "../../Data";
 import { RiLink } from "react-icons/ri";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./portfolio.css";
 
 const Portfolio = () => {
