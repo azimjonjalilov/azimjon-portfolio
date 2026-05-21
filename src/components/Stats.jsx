@@ -6,7 +6,12 @@ const Stats = () => {
     <>
       {stats.map(({ no, title }, index) => {
         return (
-          <div className="stats-box" key={index}>
+          <div
+            className="stats-box"
+            key={index}
+            data-aos="zoom-in"
+            data-aos-delay={index * 200}
+          >
             <h3 className="stats-no">{no}</h3>
             <p className="stats-title">{parse(title)}</p>
           </div>

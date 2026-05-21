@@ -1,6 +1,6 @@
 const SkillsItem = ({ img, title, level }) => {
   return (
-    <div className="skills-data">
+    <div className="skills-data" data-aos="flip-left">
       <div className="skills-blob">
         <img src={img} alt="" className="skills-img" />
       </div>

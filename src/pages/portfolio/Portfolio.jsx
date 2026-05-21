@@ -7,14 +7,19 @@ import "./portfolio.css";
 const Portfolio = () => {
   return (
     <section className="portfolio section">
-      <h2 className="section-title">
+      <h2 className="section-title" data-aos="fade-up">
         My <span>Portfolio</span>
       </h2>
 
       <div className="portfolio-container container grid">
-        {portfolio.map(({ id, img, title, description, skills, link }) => {
+        {portfolio.map(({ id, img, title, description, skills, link }, i) => {
           return (
-            <article className="portfolio-card" key={id}>
+            <article
+              className="portfolio-card"
+              key={id}
+              data-aos="zoom-in-up"
+              data-aos-delay={i * 200}
+            >
               <a href={link} className="portfolio-img-wrapper">
                 {/* <img src={img} alt="" className="portfolio-img" /> */}
                 <LazyLoadImage

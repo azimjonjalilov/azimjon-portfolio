@@ -58,19 +58,23 @@ const Contact = () => {
         },
         (error) => {
           alert("OOPs! SOMETHING WENT WRONG...", error);
-        }
+        },
       );
   };
 
   return (
     <section className="contact section">
-      <h2 className="section-title">
+      <h2 className="section-title" data-aos="fade-up">
         Contact <span>Me</span>
       </h2>
 
       <div className="contact-container container grid">
         <div className="contact-content grid">
-          <div className="contact-card">
+          <div
+            className="contact-card"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
             <span className="contact-icon">
               <RiMap2Line />
             </span>
@@ -81,7 +85,11 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-card">
+          <div
+            className="contact-card"
+            data-aos="fade-right"
+            data-aos-delay="600"
+          >
             <span className="contact-icon">
               <RiUser3Line />
             </span>
@@ -92,7 +100,11 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-card">
+          <div
+            className="contact-card"
+            data-aos="fade-right"
+            data-aos-delay="900"
+          >
             <span className="contact-icon">
               <RiMailLine />
             </span>
@@ -103,7 +115,11 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-card">
+          <div
+            className="contact-card"
+            data-aos="fade-right"
+            data-aos-delay="1200"
+          >
             <span className="contact-icon">
               <RiBook2Line />
             </span>
@@ -117,7 +133,11 @@ const Contact = () => {
 
         <form action="" className="contact-form grid" onSubmit={sendEmail}>
           <div className="contact-form-group grid">
-            <div className="contact-form-div">
+            <div
+              className="contact-form-div"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <label htmlFor="" className="contact-form-label">
                 Your full Name <b>*</b>
               </label>
@@ -131,7 +151,11 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact-form-div">
+            <div
+              className="contact-form-div"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <label htmlFor="" className="contact-form-label">
                 Your Email Address <b>*</b>
               </label>
@@ -146,7 +170,11 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-form-div">
+          <div
+            className="contact-form-div"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <label htmlFor="" className="contact-form-label">
               Your Subject <b>*</b>
             </label>
@@ -160,7 +188,11 @@ const Contact = () => {
             />
           </div>
 
-          <div className="contact-form-div">
+          <div
+            className="contact-form-div"
+            data-aos="fade-up"
+            data-aos-delay="900"
+          >
             <label htmlFor="" className="contact-form-label">
               Your Message <b>*</b>
             </label>
@@ -174,7 +206,7 @@ const Contact = () => {
           </div>
 
           <div className="contact-button">
-            <button className="button">
+            <button className="button" data-aos="zoom-in" data-aos-delay="1200">
               Send Message
               <span className="button-icon">
                 <RiSendPlaneLine />

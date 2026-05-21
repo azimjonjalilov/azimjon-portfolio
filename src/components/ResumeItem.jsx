@@ -2,7 +2,7 @@ import parse from "html-react-parser";
 
 const ResumeItem = ({ icon, year, title, desc }) => {
   return (
-    <div className="resume-item">
+    <div className="resume-item" data-aos="fade-up" data-aos-delay="300">
       <div className="resume-icon">{icon}</div>
 
       <span className="resume-date">{year}</span>

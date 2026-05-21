@@ -12,19 +12,31 @@ const About = () => {
   return (
     <main className="section container">
       <section className="about">
-        <h2 className="section-title">
+        <h2 className="section-title" data-aos="fade-up">
           About <span>Me</span>
         </h2>
 
         <div className="about-container grid">
           <div className="about-info">
-            <h3 className="section-subtitle">Personal Infos</h3>
+            <h3 className="section-subtitle" data-aos="fade-up">
+              Personal Infos
+            </h3>
 
-            <ul className="info-list grid">
+            <ul
+              className="info-list grid"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <Info />
             </ul>
 
-            <a href={CV} download="" className="button">
+            <a
+              href={CV}
+              download=""
+              className="button"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
               Download CV
               <span className="button-icon">
                 <RiDownload2Line />
@@ -41,12 +53,16 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="skills">
-        <h3 className="section-subtitle subtitle-center">My Skills</h3>
+        <h3 className="section-subtitle subtitle-center" data-aos="fade-up">
+          My Skills
+        </h3>
 
         <div className="skills-container grid">
           {/* frontend skill */}
           <div className="skills-group">
-            <h3 className="skills-title">Frontend Developer</h3>
+            <h3 className="skills-title" data-aos="zoom-in">
+              Frontend Developer
+            </h3>
 
             <div className="skills-items grid">
               {skill.map((val) => {
@@ -59,7 +75,9 @@ const About = () => {
 
           {/* backend skill */}
           <div className="skills-group">
-            <h3 className="skills-title">Backend Developer</h3>
+            <h3 className="skills-title" data-aos="zoom-in">
+              Backend Developer
+            </h3>
 
             <div className="skills-items grid">
               {skill.map((val) => {
@@ -72,7 +90,9 @@ const About = () => {
 
           {/* tools skill */}
           <div className="skills-group">
-            <h3 className="skills-title">Design / Tools</h3>
+            <h3 className="skills-title" data-aos="zoom-in">
+              Design / Tools
+            </h3>
 
             <div className="skills-items grid">
               {skill.map((val) => {
@@ -88,7 +108,7 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="resume">
-        <h3 className="section-subtitle subtitle-center">
+        <h3 className="section-subtitle subtitle-center" data-aos="fade-up">
           Experience & Education
         </h3>
 
