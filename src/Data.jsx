@@ -278,13 +278,13 @@ export const skill = [
   //   category: "backend",
   // },
 
-  {
-    id: 17,
-    img: skillsImg17,
-    title: "PostgreSQL",
-    level: "Intermediate",
-    category: "backend",
-  },
+  // {
+  //   id: 17,
+  //   img: skillsImg17,
+  //   title: "PostgreSQL",
+  //   level: "Intermediate",
+  //   category: "backend",
+  // },
 
   {
     id: 18,
@@ -310,13 +310,13 @@ export const skill = [
     category: "backend",
   },
 
-  {
-    id: 21,
-    img: skillsImg21,
-    title: "Socket.io",
-    level: "Intermediate",
-    category: "backend",
-  },
+  // {
+  //   id: 21,
+  //   img: skillsImg21,
+  //   title: "Socket.io",
+  //   level: "Intermediate",
+  //   category: "backend",
+  // },
 
   {
     id: 22,
