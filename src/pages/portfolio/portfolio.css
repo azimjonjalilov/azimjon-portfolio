@@ -50,6 +50,7 @@
 }
 
 .portfolio-link {
+  margin-top: 1.5rem;
   color: var(--title-color);
   display: inline-flex;
   align-items: center;

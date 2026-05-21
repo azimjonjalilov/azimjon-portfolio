@@ -20,7 +20,7 @@ const Portfolio = () => {
               <h3 className="portfolio-title">{title}</h3>
               <p className="portfolio-description">{description}</p>
 
-              <div className="portfolio-skills">
+              {/* <div className="portfolio-skills">
                 {skills.map((skill, index) => {
                   return (
                     <img
@@ -31,9 +31,9 @@ const Portfolio = () => {
                     />
                   );
                 })}
-              </div>
+              </div> */}
 
-              <a href={link} className="portfolio-link">
+              <a href={link} className="portfolio-link" target="_blank">
                 <RiLink className="link-icon" />
                 Visit Project
               </a>

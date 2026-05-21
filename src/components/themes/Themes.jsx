@@ -26,7 +26,7 @@ const getStorageTheme = () => {
 const Themes = () => {
   const [showSwitcher, setShowSwitcher] = useState(false);
   const [color, setColor] = useState(getStorageColor());
-  const [theme, setTheme] = useState(getStorageTheme());
+  const [theme, setTheme] = useState("dark-theme");
 
   const changeColor = (color) => {
     setColor(color);

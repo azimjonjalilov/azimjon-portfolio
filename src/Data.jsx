@@ -27,11 +27,13 @@ import skillsImg24 from "./assets/git-logo.svg";
 import skillsImg25 from "./assets/github-logo.svg";
 import skillsImg26 from "./assets/postman-logo.svg";
 
-import projectImg1 from "./assets/project-1.jpg";
-import projectImg2 from "./assets/project-2.jpg";
-import projectImg3 from "./assets/project-3.jpg";
-import projectImg4 from "./assets/project-4.jpg";
-import projectImg5 from "./assets/project-5.jpg";
+import projectImg1 from "./assets/projects/fit-lex.png";
+import projectImg2 from "./assets/projects/bazeai.png";
+import projectImg3 from "./assets/projects/algoritmcoin.png";
+import projectImg4 from "./assets/projects/notes.png";
+import projectImg5 from "./assets/projects/tripi.png";
+import projectImg6 from "./assets/projects/acme.png";
+import projectImg7 from "./assets/projects/acme.png";
 
 import Theme1 from "./assets/red.png";
 import Theme2 from "./assets/blueviolet.png";
@@ -403,52 +405,72 @@ export const portfolio = [
   {
     id: 1,
     img: projectImg1,
-    title: "Coffee Website",
+    title: "Fit-Lex",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A modern fitness web application designed for workouts, progress tracking, and maintaining a healthy lifestyle with personalized training features.",
     skills: [skillsImg4, skillsImg5],
-    link: "",
+    link: "https://fit-lex.netlify.app/",
   },
 
   {
     id: 2,
     img: projectImg2,
-    title: "Food Product Design",
+    title: "Baze AI",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "An all-in-one productivity platform designed to simplify task management, boost efficiency, and help users organize everything they need in one place.",
     skills: [skillsImg6, skillsImg7],
-    link: "",
+    link: "https://bazeaiproject.netlify.app/",
   },
 
   {
     id: 3,
     img: projectImg3,
-    title: "Restaurant Landing Page",
+    title: "Algoritm Coin",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A student reward platform where users earn digital coins based on their learning achievements, performance, and participation throughout the educational process.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: "",
+    link: "https://algoritmcoin.netlify.app/",
   },
 
   {
     id: 4,
     img: projectImg4,
-    title: "Barbershop Website",
+    title: "Notes App",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A simple and modern note-taking application that allows users to create, organize, and manage their daily notes efficiently with a clean user-friendly interface.",
     skills: [skillsImg4, skillsImg5],
-    link: "",
+    link: "https://notespro-app.netlify.app/",
   },
 
   {
     id: 5,
     img: projectImg5,
-    title: "Construction Landing Page",
+    title: "TRIPI",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A modern tourism and travel website designed to help users explore beautiful destinations, enjoy nature, and discover unforgettable travel experiences with an engaging interface.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: "",
+    link: "https://tourism-uz.netlify.app/",
   },
+
+  {
+    id: 6,
+    img: projectImg6,
+    title: "ACME",
+    description:
+      "A modern business dashboard application built with Next.js, featuring invoice management, customer tracking, and responsive analytics for efficient workflow management.",
+    skills: [skillsImg1, skillsImg2, skillsImg3],
+    link: "https://nextjs-dashboard-sandy-gamma-76.vercel.app/",
+  },
+
+  // {
+  //   id: 7,
+  //   img: projectImg7,
+  //   title: "RentBook",
+  //   description:
+  //     "A modern property rental platform that helps users explore, book, and manage rental homes and apartments through a clean and user-friendly interface.",
+  //   skills: [skillsImg1, skillsImg2, skillsImg3],
+  //   link: "https://rentbook.uz",
+  // },
 ];
 
 // ========== THEME ==========
