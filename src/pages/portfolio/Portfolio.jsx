@@ -1,5 +1,6 @@
 import { portfolio } from "../../Data";
 import { RiLink } from "react-icons/ri";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -14,7 +15,13 @@ const Portfolio = () => {
           return (
             <article className="portfolio-card" key={id}>
               <a href={link} className="portfolio-img-wrapper">
-                <img src={img} alt="" className="portfolio-img" />
+                {/* <img src={img} alt="" className="portfolio-img" /> */}
+                <LazyLoadImage
+                  effect="blur"
+                  alt={title}
+                  src={img}
+                  height={"200px"}
+                />
               </a>
 
               <h3 className="portfolio-title">{title}</h3>
