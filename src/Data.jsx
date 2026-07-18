@@ -33,7 +33,7 @@ import projectImg3 from "./assets/projects/algoritmcoin.png";
 import projectImg4 from "./assets/projects/notes.png";
 import projectImg5 from "./assets/projects/tripi.png";
 import projectImg6 from "./assets/projects/acme.png";
-import projectImg7 from "./assets/projects/acme.png";
+import projectImg7 from "./assets/projects/moneytrack.png";
 
 import Theme1 from "./assets/red.png";
 import Theme2 from "./assets/blueviolet.png";
@@ -85,7 +85,7 @@ export const personalInfo = [
 
   {
     title: "Age : ",
-    description: "26 Years",
+    description: "27 Years",
   },
 
   {
@@ -460,6 +460,16 @@ export const portfolio = [
       "A modern business dashboard application built with Next.js, featuring invoice management, customer tracking, and responsive analytics for efficient workflow management.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "https://nextjs-dashboard-sandy-gamma-76.vercel.app/",
+  },
+
+  {
+    id: 7,
+    img: projectImg7,
+    title: "MoneyTrack.uz",
+    description:
+      "A personal finance tracking application designed to monitor income, expenses, and budgets with real-time analytics and detailed financial reports.",
+    skills: [skillsImg5, skillsImg6, skillsImg7],
+    link: "https://moneytrack.uz",
   },
 
   // {
