@@ -65,11 +65,11 @@ const About = () => {
             </h3>
 
             <div className="skills-items grid">
-              {skill.map((val) => {
-                if (val.category === "developer") {
-                  return <SkillsItem key={val.id} {...val} />;
-                }
-              })}
+              {skill
+                .filter((val) => val.category === "developer")
+                .map((val) => (
+                  <SkillsItem key={val.id} {...val} />
+                ))}
             </div>
           </div>
 
@@ -80,11 +80,11 @@ const About = () => {
             </h3>
 
             <div className="skills-items grid">
-              {skill.map((val) => {
-                if (val.category === "backend") {
-                  return <SkillsItem key={val.id} {...val} />;
-                }
-              })}
+              {skill
+                .filter((val) => val.category === "backend")
+                .map((val) => (
+                  <SkillsItem key={val.id} {...val} />
+                ))}
             </div>
           </div>
 
@@ -95,11 +95,11 @@ const About = () => {
             </h3>
 
             <div className="skills-items grid">
-              {skill.map((val) => {
-                if (val.category === "tools") {
-                  return <SkillsItem key={val.id} {...val} />;
-                }
-              })}
+              {skill
+                .filter((val) => val.category === "tools")
+                .map((val) => (
+                  <SkillsItem key={val.id} {...val} />
+                ))}
             </div>
           </div>
         </div>
@@ -114,19 +114,19 @@ const About = () => {
 
         <div className="resume-container grid">
           <div className="resume-group grid">
-            {resume.map((val) => {
-              if (val.category === "experience") {
-                return <ResumeItem key={val.id} {...val} />;
-              }
-            })}
+            {resume
+              .filter((val) => val.category === "experience")
+              .map((val) => (
+                <ResumeItem key={val.id} {...val} />
+              ))}
           </div>
 
           <div className="resume-group grid">
-            {resume.map((val) => {
-              if (val.category === "education") {
-                return <ResumeItem key={val.id} {...val} />;
-              }
-            })}
+            {resume
+              .filter((val) => val.category === "education")
+              .map((val) => (
+                <ResumeItem key={val.id} {...val} />
+              ))}
           </div>
         </div>
       </section>

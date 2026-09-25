@@ -16,24 +16,21 @@ import skillsImg12 from "./assets/responsive-logo.png";
 import skillsImg13 from "./assets/nodejs-logo.svg";
 import skillsImg14 from "./assets/express-logo.svg";
 import skillsImg15 from "./assets/mongodb-logo.svg";
-// import skillsImg16 from "./assets/mongodb-logo.svg";
-import skillsImg17 from "./assets/postgresql-logo.svg";
 import skillsImg18 from "./assets/firebase-logo.svg";
 import skillsImg19 from "./assets/jsonwebtokens-logo.svg";
-import skillsImg21 from "./assets/socket-logo.svg";
 import skillsImg22 from "./assets/swagger-logo.svg";
 import skillsImg23 from "./assets/figma-logo.svg";
 import skillsImg24 from "./assets/git-logo.svg";
 import skillsImg25 from "./assets/github-logo.svg";
 import skillsImg26 from "./assets/postman-logo.svg";
 
-import projectImg1 from "./assets/projects/fit-lex.png";
-import projectImg2 from "./assets/projects/bazeai.png";
-import projectImg3 from "./assets/projects/algoritmcoin.png";
-import projectImg4 from "./assets/projects/notes.png";
-import projectImg5 from "./assets/projects/tripi.png";
-import projectImg6 from "./assets/projects/acme.png";
-import projectImg7 from "./assets/projects/moneytrack.png";
+import projectImg1 from "./assets/projects/fit-lex.webp";
+import projectImg2 from "./assets/projects/bazeai.webp";
+import projectImg3 from "./assets/projects/algoritmcoin.webp";
+import projectImg4 from "./assets/projects/notes.webp";
+import projectImg5 from "./assets/projects/tripi.webp";
+import projectImg6 from "./assets/projects/acme.webp";
+import projectImg7 from "./assets/projects/moneytrack.webp";
 
 import Theme1 from "./assets/red.png";
 import Theme2 from "./assets/blueviolet.png";
@@ -119,7 +116,7 @@ export const personalInfo = [
   },
 
   {
-    title: "Langages : ",
+    title: "Languages : ",
     description: "Uzbek, English",
   },
 ];
@@ -406,81 +403,85 @@ export const portfolio = [
     id: 1,
     img: projectImg1,
     title: "Fit-Lex",
+    category: "React",
     description:
       "A modern fitness web application designed for workouts, progress tracking, and maintaining a healthy lifestyle with personalized training features.",
     skills: [skillsImg4, skillsImg5],
     link: "https://fit-lex.netlify.app/",
+    github: "https://github.com/jalilovazimjon",
   },
 
   {
     id: 2,
     img: projectImg2,
     title: "Baze AI",
+    category: "React",
     description:
       "An all-in-one productivity platform designed to simplify task management, boost efficiency, and help users organize everything they need in one place.",
     skills: [skillsImg6, skillsImg7],
     link: "https://bazeaiproject.netlify.app/",
+    github: "https://github.com/jalilovazimjon",
   },
 
   {
     id: 3,
     img: projectImg3,
     title: "Algoritm Coin",
+    category: "Frontend",
     description:
       "A student reward platform where users earn digital coins based on their learning achievements, performance, and participation throughout the educational process.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "https://algoritmcoin.netlify.app/",
+    github: "https://github.com/jalilovazimjon",
   },
 
   {
     id: 4,
     img: projectImg4,
     title: "Notes App",
+    category: "React",
     description:
       "A simple and modern note-taking application that allows users to create, organize, and manage their daily notes efficiently with a clean user-friendly interface.",
     skills: [skillsImg4, skillsImg5],
     link: "https://notespro-app.netlify.app/",
+    github: "https://github.com/jalilovazimjon",
   },
 
   {
     id: 5,
     img: projectImg5,
     title: "TRIPI",
+    category: "Frontend",
     description:
       "A modern tourism and travel website designed to help users explore beautiful destinations, enjoy nature, and discover unforgettable travel experiences with an engaging interface.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "https://tourism-uz.netlify.app/",
+    github: "https://github.com/jalilovazimjon",
   },
 
   {
     id: 6,
     img: projectImg6,
     title: "ACME",
+    category: "Next.js",
     description:
       "A modern business dashboard application built with Next.js, featuring invoice management, customer tracking, and responsive analytics for efficient workflow management.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "https://nextjs-dashboard-sandy-gamma-76.vercel.app/",
+    github: "https://github.com/jalilovazimjon",
   },
 
   {
     id: 7,
     img: projectImg7,
     title: "MoneyTrack.uz",
+    category: "Full Stack",
     description:
       "A personal finance tracking application designed to monitor income, expenses, and budgets with real-time analytics and detailed financial reports.",
     skills: [skillsImg5, skillsImg6, skillsImg7],
     link: "https://moneytrack.uz",
+    github: "https://github.com/jalilovazimjon",
   },
-
-  // {
-  //   id: 7,
-  //   img: projectImg7,
-  //   title: "RentBook",
-  //   description:
-  //     "A modern property rental platform that helps users explore, book, and manage rental homes and apartments through a clean and user-friendly interface.",
-  //   skills: [skillsImg1, skillsImg2, skillsImg3],
-  //   link: "https://rentbook.uz",
-  // },
 ];
 
 // ========== THEME ==========

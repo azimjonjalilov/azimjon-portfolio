@@ -1,4 +1,3 @@
-import Profile from "../../assets/user.png";
 import { Link } from "react-router";
 import { FiArrowRight } from "react-icons/fi";
 import "./home.css";
@@ -6,10 +5,6 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="home-container grid">
-      {/* <div className="home-img">
-        <img src={Profile} alt="" className="home-img" />
-      </div> */}
-
       <div className="home-content">
         <h1 className="home-title" data-aos="fade-up">
           <span>I'm Azimjon Jalilov</span>
